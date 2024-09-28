@@ -20,11 +20,11 @@ const power = function(a,b) {
 
 const factorial = function(n) {
   if(n==0) return 1;
-  result = 1;
+  total = 1;
   for(let i = 1; i<=n; i++){
-    result*= i;
+    total*= i;
   }
-  return result;
+  return total;
 };
 
 // Do not edit below this line
